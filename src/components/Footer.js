@@ -8,7 +8,7 @@ function Footer() {
         <div className='footer-container'>
             <section className='footer-subscription'>
                 <p className='footer-subscription-heading'>
-                    Join the Adventure to recive out email
+                    Subscribe to my news & updates
                 </p>
                 <p className='footer-subscription-text'>
                     You can unsubscribe at any time.
@@ -25,14 +25,14 @@ function Footer() {
                     <div className='footer-link-items'>
                         <h2>About Us</h2>
                         <Link to='/sign-up'>How it works</Link>
-                        <Link to='/services'>Terms and Conditions</Link>
+                        <Link to='/courses'>Terms and Conditions</Link>
                     </div>
                 </div>
                 <div className='footer-link-wrapper'>
                     <div className='footer-link-items'>
                         <h2>Contact Us</h2>
                         <Link to='/sign-up'>CEO</Link>
-                        <Link to='/services'>CTO</Link>
+                        <Link to='/courses'>CTO</Link>
                     </div>
                 </div>
             </div>
@@ -40,10 +40,10 @@ function Footer() {
                 <div className='social-media-wrap'>
                     <div className='footer-logo'>
                         <Link to='/' className='social-logo'>
-                            DB <i className='fab fa-typo3' />
+                            DB <i className='fa-solid fa-graduation-cap' />
                         </Link>
                     </div>
-                    <small className='website-rights'>DB (c) 2022</small>
+                    <small className='website-rights'>DB © 2022</small>
                     <div className='social-icons'>
                         <Link to='/' className='social-icon-link facebook' target='_blank' arial-label='Facebook'>
                             <i className='fab fa-facebook-f' />

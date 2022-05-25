@@ -6,7 +6,7 @@
 }
 
 .home,
-.services,
+.courses,
 .products,
 .sign-up {
     display: flex;
@@ -16,8 +16,8 @@
     font-size: 3rem;
 }
 
-.services {
-    background-image: url('/public/images/img-2.jpg');
+.courses {
+    background-image: url('/public/images/1_my.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -26,9 +26,8 @@
 }
 
 .products {
-    background-image: url('/public/images/img-1.jpg');
+    background-image: url('/public/images/2_corp.jpg');
     background-position: center;
-    /*background-size: fill; */
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
@@ -36,7 +35,7 @@
 }
 
 .sign-up {
-    background-image: url('/public/images/img-8.jpg');
+    background-image: url('/public/images/5_indi.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

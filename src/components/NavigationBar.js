@@ -42,8 +42,8 @@ export function NavigationBar() {
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="/services" className="nav-links" onClick={closeMobileMenu}>
-                                Services
+                            <Link to="/courses" className="nav-links" onClick={closeMobileMenu}>
+                                Courses
                             </Link>
                         </li>
                         <li className="nav-item">
